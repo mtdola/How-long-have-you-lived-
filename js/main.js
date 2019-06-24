@@ -13,46 +13,46 @@ function calcDays(){
     if (age > today){
         out.innerHTML= "Hello time traveller <br> we do hope you come in peace? ";
     }
-    else if (exactDay <=2018 && exactDay > 2016){ 
+    else if (exactDay <=2019 && exactDay > 2017){ 
         out.innerHTML= "You are an infant(a tinny tiny baby), dont disturb mama too much though. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> ";
     }
     if(years == 1){
         out.innerHTML= "You are an infant and you just clocked 1 :)  <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if(exactDay <= 2016 && exactDay > 2014){
+    else if(exactDay <= 2017 && exactDay > 2015){
         out.innerHTML= "You are a toddler. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if(exactDay <= 2014 && exactDay > 2009) {
+    else if(exactDay <= 2015 && exactDay > 2010) {
         out.innerHTML= "You are still a child. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + " days <br> ";
     }
-    else if(exactDay <= 2009 && exactDay > 2004){
+    else if(exactDay <= 2010 && exactDay > 2005){
         out.innerHTML= "You are in early adolescense, have fun. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> <img src=\"https://####\">";
     }
-    else if(exactDay <= 2004 && exactDay > 1999){
+    else if(exactDay <= 2005 && exactDay > 2000){
         out.innerHTML= "You are in later adolescense. Enjoy childhood whilst it lasts. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if(exactDay <= 1999 && exactDay > 1997 ){
+    else if(exactDay <= 2000 && exactDay > 1998 ){
         out.innerHTML= "You are in early adulthood, please dont get it wrong now! <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if(exactDay <= 1997 && exactDay > 1987){
+    else if(exactDay <= 1998 && exactDay > 1988){
         out.innerHTML= "You are an adult. I'm curious are you married :) ? <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
     if (years == 18 || years == 21){
         out.innerHTML= "Congratulations, you're legal. Yay!! <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> ";
     }
-    else if(exactDay <= 1987 && exactDay > 1973){
+    else if(exactDay <= 1988 && exactDay > 1974){
         out.innerHTML = "You're getting closer to real life, remember life begins at 40 <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> ";
     }
-    else if (exactDay <= 1973 && exactDay >1967){
+    else if (exactDay <= 1974 && exactDay >1968){
         out.innerHTML= "You're middle aged. Get ready to retire. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if (exactDay <= 1967 && exactDay > 1896){
+    else if (exactDay <= 1968 && exactDay > 1897){
         out.innerHTML= "You are getting old. Please do good. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
-    else if (exactDay <= 1896 && exactDay > 1866){
+    else if (exactDay <= 1897 && exactDay > 1867){
         out.innerHTML = "You're a little above old are you sure you're really alive? <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> you have lived for exactly " + days + "days <br> ";
     }
-    else if(exactDay <= 1866){
+    else if(exactDay <= 1867){
         out.innerHTML= "Woah, you're surely immortal. Please get to your grave before its too late. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
     }
 }
