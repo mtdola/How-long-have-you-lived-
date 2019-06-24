@@ -1,3 +1,4 @@
+/*
 
 body{
     padding: 0;
@@ -29,7 +30,7 @@ form{
     padding-top: 50px;
 }
 
-/* Need to add image  */
+ Need to add image  
 
 #number,#btn{
     width: 35vw;
@@ -60,3 +61,51 @@ form{
     color: black;
 }
 
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: linear-gradient(to right, #00aaff, #00ffaa);
+	height: 100%;
+	text-align: center;
+}
+header {
+	font-size: 3rem;
+	color: white;
+	font-family: cursive;
+	margin: 15px 0;
+}
+#instruction {
+	font-size: 1.5rem;
+	color: black;
+	margin: 0 0 15px 0;
+}
+.section { 
+	margin-top: 25px;
+}
+.section #number {
+	border: none;
+	border-radius: 30px;
+	padding: 1px 5px;
+	font-size: 1.3rem;
+	font-family: serif;
+	text-align: center;
+}
+.section #btn {
+	padding: 5px 10px;
+	margin-left: 10px;
+	font-family: serif;
+	font-size: 16px;
+	background-color: bisque;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.section #btn:hover {
+	background-color: #fdd7aa;
+	cursor: pointer;
+}
