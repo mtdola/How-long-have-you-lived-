@@ -17,7 +17,7 @@ function calcDays(){
         out.innerHTML= "You are an infant(a tinny tiny baby), dont disturb mama too much though. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> <img src=\"img/infant.jpeg\">";
     }
     if(years == 1){
-        out.innerHTML= "You are an infant and you just clocked 1 :)  <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/infant.jpeg\">";
+        out.innerHTML= "You are an infant and you just clocked 1 :)  <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/oneyear.jpg\">";
     }
     else if(exactDay <= 2017 && exactDay > 2015){
         out.innerHTML= "You are a toddler. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
@@ -29,7 +29,7 @@ function calcDays(){
         out.innerHTML= "You are in early adolescense, have fun. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> <img src=\"img/funny.jpeg\" >";
     }
     else if(exactDay <= 2005 && exactDay > 2000){
-        out.innerHTML= "You are in later adolescense. Enjoy childhood whilst it lasts. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
+        out.innerHTML= "You are in later adolescense. Enjoy childhood whilst it lasts. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/earlyado.png\" >";
     }
     else if(exactDay <= 2000 && exactDay > 1998 ){
         out.innerHTML= "You are in early adulthood, please dont get it wrong now! <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/adult.jpeg\">";
