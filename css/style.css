@@ -109,3 +109,12 @@ header {
 	background-color: #fdd7aa;
 	cursor: pointer;
 }
+#output {
+	font-size: 1.3rem;
+	font-family: ;
+}
+.output {
+	background-color: white;
+	padding: 10px;
+	margin: 15px 0px;
+}
