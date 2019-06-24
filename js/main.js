@@ -17,7 +17,7 @@ function calcDays(){
         out.innerHTML= "You are an infant(a tinny tiny baby), dont disturb mama too much though. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days +"days <br> <img src=\"img/infant.jpeg\">";
     }
     if(years == 1){
-        out.innerHTML= "You are an infant and you just clocked 1 :)  <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/oneyear.jpg\">";
+        out.innerHTML= "You are an infant and you just clocked 1 :)  <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> <img src=\"img/infant.jpeg\">";
     }
     else if(exactDay <= 2017 && exactDay > 2015){
         out.innerHTML= "You are a toddler. <br> Birth year: " + exactDay + "<br> Age: " + years + "years old. <br> You have lived for exactly " + days + "days <br> ";
